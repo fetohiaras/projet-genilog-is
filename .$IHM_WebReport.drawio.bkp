@@ -1,0 +1,34 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Page-1" id="HbWn4fBAT66-o-Pd7Z7B">
+    <mxGraphModel dx="1042" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-1" value="MDP&lt;div&gt;oublié&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-2" value="1ére&amp;nbsp; modification" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-3" value="IHM" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="400" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-8" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-9" value="Login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TjdyM8zFQbpC29eJfy2d-8">
+          <mxGeometry x="10" y="20" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-10" value="Password" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TjdyM8zFQbpC29eJfy2d-8">
+          <mxGeometry x="10" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TjdyM8zFQbpC29eJfy2d-11" value="submit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="TjdyM8zFQbpC29eJfy2d-8">
+          <mxGeometry x="50" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
