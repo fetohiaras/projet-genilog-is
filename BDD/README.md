@@ -4,7 +4,7 @@
 
 ---
 
-#### Prénom NOM – Prénom NOM
+#### Prénom NOM 
 > Léo     – Boutonnet  
 > Nathan    – Groussard  
 > Tarek      – Talsi  
