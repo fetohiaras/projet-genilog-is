@@ -41,3 +41,17 @@ Le backend doit être capable de:
 - Recevoir le nouveau mot de passe saisi par l'utilisateur.
 - Mettre à jour le mot de passe dans la base de données avec le nouveau mot de passe.
 - Envoyer au frontend un message de confirmation que le mot de passe a été changé.
+
+## Détail des fonctions
+Voici un tableau récapitulatif des fonctions nécessaires pour chaque scénario:
+| Scénario                     | Fonction                                 | Description                                                                                   |
+|------------------------------|------------------------------------------|-----------------------------------------------------------------------------------------------|
+|Connexion classique| `verify_credentials(serial_number,pwd)`                     | Vérifier les identifiants en interrogeant la base de données.         |
+|MDP oublié|`send_verification_code(email)` | Générer un code de vérification et l'envoyer par mail. |
+|MDP oublié| `verify_code(input_code)` | Vérifier que le code de vérification est correct. |
+|1ere connexion / MDP oublié| `check_password_validity(entry1, entry2)` | Vérifier que les champs mot de passe sont égaux et que les règles de création de mot de passe sont respectées. |
+|1ere connexion / MDP oublié| `hash_password(pwd)` | Hasher le mot de passe avant de le stocker dans la base de données. |
+|Database related|`get_user_by_serial(serial_number)`                     | Récupérer les informations de l'utilisateur par son numéro de série.         |
+|Database related|`update_user(user)`                     | Mettre à jour les différents champs utilisateurs dans la base de données.         |
+
+
