@@ -33,8 +33,11 @@ Lorsqu'un utilisateur oublie son mot de passe, il peut demander à le réinitial
 Le backend doit être capable de:
 - Recevoir la demande de réinitialisation et l'email utilisateur du frontend.
 - Vérifier que l'email est bien associé à un compte utilisateur en interrogeant la base de données.
-- Générer un mot de passe temporaire.
-- Mettre à jour le mot de passe dans la base de données avec le mot de passe temporaire et réinitialiser le booléen de première connexion.
-- Envoyer un email à l'utilisateur avec le mot de passe temporaire.
-- Envoyer au frontend un message de confirmation que l'email a été envoyé.
-
+- Générer un code de vérification et l'envoyer par mail.
+- Envoyer au frontend la page de saisie du code de vérification.
+- Recevoir le code de vérification saisi par l'utilisateur.
+- Vérifier que le code de vérification est correct.
+- Envoyer au frontend la page de saisie du nouveau mot de passe.
+- Recevoir le nouveau mot de passe saisi par l'utilisateur.
+- Mettre à jour le mot de passe dans la base de données avec le nouveau mot de passe.
+- Envoyer au frontend un message de confirmation que le mot de passe a été changé.
