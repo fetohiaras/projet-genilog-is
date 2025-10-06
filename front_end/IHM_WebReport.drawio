@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" scale="1" border="0" modified="2025-10-06T12:17:25.471Z" version="24.6.4" etag="u-5ZtVsHxUzanBng-mA-" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" scale="1" border="0" modified="2025-10-06T12:29:01.407Z" etag="aTkCglSmFIZPGpyUWKoi" version="24.6.4" type="device">
   <diagram name="Page-1" id="HbWn4fBAT66-o-Pd7Z7B">
-    <mxGraphModel dx="1877" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2117" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,10 +140,10 @@
         <mxCell id="RMezayaGzcDHLrbHB1K9-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="-480" y="322.5" width="252" height="252" as="geometry" />
         </mxCell>
-        <mxCell id="RMezayaGzcDHLrbHB1K9-6" value="saisir ancien&amp;nbsp; &amp;nbsp;mdp&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RMezayaGzcDHLrbHB1K9-6" value="saisir nouveau mdp&amp;nbsp;&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-454" y="367" width="180" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="RMezayaGzcDHLrbHB1K9-7" value="saisir nouveau mdp&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RMezayaGzcDHLrbHB1K9-7" value="confirmer nouveau mdp&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-454" y="422" width="180" height="37.5" as="geometry" />
         </mxCell>
         <mxCell id="RMezayaGzcDHLrbHB1K9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.444;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="RMezayaGzcDHLrbHB1K9-2" target="RMezayaGzcDHLrbHB1K9-4" edge="1">
