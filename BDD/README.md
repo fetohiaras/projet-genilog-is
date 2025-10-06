@@ -1,6 +1,6 @@
 <div style="text-align: justify;">
 
-# Bese de Données
+# Base de Données
 
 ---
 
@@ -28,6 +28,7 @@ Ce diagramme UML représente les relations entre les entités **Utilisateur**, *
  | password_hashed     | string        | Mot de passe haché de l'utilisateur.             |
  | email               | string        | Adresse e-mail de l'utilisateur.                 |
  | 1ere_connexion      | bool          | Indique si c'est la première connexion.          |
+ | matricule           |string         | Matricule de l'utilisateur utilisé pour se connecter|
 
 ---
 
