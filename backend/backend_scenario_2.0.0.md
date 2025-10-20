@@ -31,14 +31,15 @@ Les projets, les lots et les activités étant traités de la même manière, il
 |Suppression d'activité|`delete_activity(id_activity,user_id)`|Vérifie que l'activité existe, que l'utilisateur a les permissions|Activité supprimée de la base de données|
 
 ## Récupération d'informations
-
+                            
 |Fonction|Description|Return|
 |-|-|-|
-`get_projects(user_id)`||Informe frontend des projets accessibles à l'utilisateur|
+|`get_user_info()`||Informations sur l'utilisateur connecté|
+|`is_superuser(user_id)`|Vérifie que l'utilisateur connecté est un superviseur|Booléen superviseur ou non|
+|`switch_to_user_management(user_id)`|Vérifie que l'utilisateur est un superviseur|TODO
+|`get_projects(user_id)`||Informe frontend des projets accessibles à l'utilisateur|
 |`get_lots(user_id,project_id)`|Vérifie que le projet existe|Informe frontend des lots accessibles à l'utilisateur|
 |`get_activities(user_id,lot_id)`|Vérifie que le lot existe|Informe frontend des activités accessibles à l'utilisateur|
-
-
 
 
 ## Saisies périodiques
@@ -46,6 +47,7 @@ Les projets, les lots et les activités étant traités de la même manière, il
 |Bouton|Fonction|Description|Return|
 |-|-|-|-|
 |Log Time|`log_time(activity_id,user_id,time)`|Ajoute du temps travaillé sur l'activité|Temps enregistré dans la base de données|
+|Edit Time|`edit_time(activity_id,user_id,new_time)`|Vérifie que l'entrée de temps existe et que l'utilisateur a les permissions, modifie le temps travaillé sur l'activité|Base de données mise à jour|
 
 ## Clôtures
 |Bouton|Fonction|Description|Return|
