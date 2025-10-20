@@ -98,7 +98,7 @@ Pour la section frontend, l'équipe a implémenté un scénario général avec l
 
 - Pages d’erreurs (mot de passe incorrect, confirmation invalide, etc.).
 
-![Scénario pour la version 1.0 du logiciel](front_end/scenario.1.0.0.svg)
+![Scénario pour la version 1.0 du logiciel](scenario/scenario.1.0.0.svg)
 
 On a aussi développé une organisation pour les écrans qui seront liés au scénario défini.
 
