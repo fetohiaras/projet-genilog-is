@@ -1,5 +1,5 @@
 # Fonctions backend
-Ce document décrit les fonctions principales de la partie backend de l'application.
+Le document suivant décrit les fonctions principales du serveur backend afin d'assurer le bon fonctionnement de l'application et ses fonctionnalités, à l'état d'avancement 1.0.0.
 
 ## Fonctionnement général
 De manière générale, le backend établit une connexion entre la base de données et le frontend. Il gère les requêtes, traite les données et renvoie les réponses appropriées. Le fonctionnement peut être résumé en ce diagramme:  
